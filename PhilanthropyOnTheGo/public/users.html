@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/users.css">
+    <title></title>
+  </head>
+  <body>
+    <div id="header">
+
+      <div class="header hidden">
+        <div class="header-box">
+          <h1 class="logo">Philanthropy On The Go</h1>
+          <div class="login hidden">
+            <div class="logStatus"></div>
+          </div>
+          <div class="loggedIn hidden">
+            <form class="back-home" action="index.html" method="GET">
+              <button type="submit" class="back-home"> Homepage </button>
+            </form>
+            <span> | </span>
+            <button class="post hidden">Post New</button>
+            <span> | </span>
+            <form class="logout" action="index.html" method="GET">
+              <button class="logout">Logout</button>
+            </form>
+
+            <div class="status"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="content">
+      <div class="content hidden">
+        <ul class="items-list">
+        </ul>
+      </div>
+    </div>
+
+    <div id="detail">
+      <div class="detail-page hidden">
+        <div class="items-detail">
+
+        </div>
+        <button class="back" type="button">My Posts</button>
+        <button class="delete" type="button">Delete</button>
+        <div class="status"></div>
+      </div>
+    </div>
+
+    <div id="new">
+      <div class="new-post hidden">
+        <form>
+          <div class="new-store">
+            <label class="note" >Store: </label>
+            <br>
+            <input type="text" placeholder="">
+          </div>
+
+          <div class="new-name">
+            <label class="note" >Contact Name: </label>
+            <br>
+            <input type="text" placeholder="">
+          </div>
+          
+          <div class="new-phone">
+            <label class="note" >Phone: </label>
+            <br>
+            <input type="text" placeholder="">
+          </div>
+
+          <div class="new-location">
+            <label class="note">Location:</label>
+            <br>
+            <textarea rows="2" cols="80"></textarea>
+          </div>
+
+          <div class="new-content">
+            <lable class="note">Items: </label>
+            <br>
+            <textarea rows="8" cols="80"></textarea>
+          </div>
+        </form>
+        <div class="status"></div>
+        <button class="submit">Submit</button>
+        <button class="back" type="button">Homepage</button>
+      </div>
+    </div>
+
+
+    <script src="js/user.js"></script>
+  </body>
+</html>
